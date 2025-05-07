@@ -2,9 +2,9 @@
 
 ## Background
 
-Precision oncology aims to treat individual patients based on their unique clinical and genomic profiles. A Clinical Genomic (CG) Twin integrates a patient’s clinical data (e.g., cancer type, stage, co-morbidities) and genomic data (e.g., mutations, gene expression) to create a comprehensive profile. By comparing this profile to a database of similar patient profiles, OncoTwin identifies “twins” — patients with analogous characteristics — and analyzes their treatment outcomes to guide personalized treatment plans.
+Precision oncology aims to treat individual patients based on their unique clinical and genomic profiles. A Clinical Genomic Twin (CGT) integrates a patient’s clinical data (e.g., cancer type, stage, co-morbidities) and genomic data (e.g., mutations, gene expression) to create a comprehensive profile. By comparing this profile to a database of similar patient profiles, OncoTwin identifies “twins” — patients with analogous characteristics — and analyzes their treatment outcomes to guide personalized treatment plans.
 
-The OncoTwin project addresses key challenges in bioinformatics and clinical research:
+The CGT project addresses key challenges in bioinformatics and clinical research:
 
 Data Integration: Combining heterogeneous clinical and genomic data into a unified patient profile.
 Scalability: Efficiently matching profiles against large databases.
@@ -40,7 +40,7 @@ pysam (BAM/SAM file parsing, optional)
 
 ## Database Creation (21st May)
 
-The OncoTwin system relies on a database of patient profiles, which integrates diverse data types:
+The CGT system relies on a database of patient profiles, which integrates diverse data types:
 
 Clinical Data:
 Cancer type (e.g., breast, lung, colorectal)
@@ -61,7 +61,7 @@ Outcomes (e.g., survival months, response rate)
 
 ## Method 
 
-The OncoTwin tool implements the following workflow:
+The CGT tool implements the following workflow:
 
 Profile Creation:
 Input clinical data (e.g., cancer type, stage) and genomic data (e.g., mutation status).
