@@ -27,9 +27,9 @@ Access these features via an intuitive web interface.
 To use or contribute to OncoTwin, the following are required:
 
 Software:
-Python 3.8 or higher
-Git (for cloning the repository)
-(Optional) Conda for managing environments
+'- Python 3.8 or higher
+'- Git (for cloning the repository)
+'- (Optional) Conda for managing environments
 
 Python Libraries:
 pandas (data manipulation)
