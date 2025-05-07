@@ -6,9 +6,9 @@ Precision oncology aims to treat individual patients based on their unique clini
 
 The OncoTwin project addresses key challenges in bioinformatics and clinical research:
 
-'- Data Integration: Combining heterogeneous clinical and genomic data into a unified patient profile.
-'- Scalability: Efficiently matching profiles against large databases.
-'- Clinical Utility: Providing actionable insights for oncologists through a user-friendly interface.
+Data Integration: Combining heterogeneous clinical and genomic data into a unified patient profile.
+Scalability: Efficiently matching profiles against large databases.
+Clinical Utility: Providing actionable insights for oncologists through a user-friendly interface.
 
 This project proposes a Python-based tool, OncoTwinMatcher, to automate patient profile creation and matching, with a planned web interface for clinicians to input patient data and retrieve twin details.
 
@@ -27,9 +27,9 @@ Access these features via an intuitive web interface.
 To use or contribute to OncoTwin, the following are required:
 
 Software:
-'- Python 3.8 or higher
-'- Git (for cloning the repository)
-'- (Optional) Conda for managing environments
+Python 3.8 or higher
+Git (for cloning the repository)
+(Optional) Conda for managing environments
 
 Python Libraries:
 pandas (data manipulation)
