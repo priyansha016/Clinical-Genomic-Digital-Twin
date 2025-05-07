@@ -38,7 +38,7 @@ pyvcf (VCF file parsing, optional for genomic data)
 pysam (BAM/SAM file parsing, optional)
 
 
-## Database Creation
+## Database Creation (21st May)
 
 The OncoTwin system relies on a database of patient profiles, which integrates diverse data types:
 
@@ -59,7 +59,7 @@ Outcomes (e.g., survival months, response rate)
 
 
 
-## Method
+## Method 
 
 The OncoTwin tool implements the following workflow:
 
