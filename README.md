@@ -74,12 +74,12 @@ Include similarity and key clinical/genomic details.
 
 ## Goals and timelines
 
-1. Collect and Prepare Dataset : Download breast cancer data from online resources, focusing on patients with treatment response data for multiple drugs. Ensure the dataset includes response outcomes (responder/non-responder) for at least 3–5 drugs. (May 20)
-2. Preprocess Data : Clean the dataset by handling missing values (e.g., impute numerical data with median, categorical with mode) and standardize features. (May 27)
-3. Clinical Genomic Twin model : Implement a clustering algorithm to group patients by similarity based on selected features. (3 June)
-4. Develop Multi-Drug Prediction Model : Train a machine learning model to predict responses for multiple drugs based on patient features. (3 June)
-5. Create an interface : Build a basic interface to input patient details and output predicted drug responses. (10 June)
-6. Test and Document : Test the prototype on a test dataset and document results for future expansion. (17 June)
+1. Reading the existing methods and collection of data.
+2. Collect and Prepare Dataset : Download cancer data from online resources. (May 27)
+2. Preprocess Data : Clean the dataset by handling missing values (e.g., impute numerical data with median, categorical with mode) and standardize features. (3 June)
+3. Clinical Genomic Twin model : Implement a clustering algorithm to group patients by similarity based on selected features. (10 June)
+5. Create an interface : Build a basic interface to input patient details and output predicted drug responses. (17 June)
+6. Test and Document : Test the prototype on a test dataset and document results for future expansion. (24 June)
 [Buffer time : 2 weeks]
 
 ## Planned Interface
